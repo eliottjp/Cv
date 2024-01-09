@@ -145,7 +145,7 @@ body.scale-cv {
 
 .scale-cv .education__container,
 .scale-cv .experience__container,
-.scale-cv .certificate__container {
+.scale-cv .events__container {
   gap: 1rem;
 }
 
@@ -505,13 +505,13 @@ img {
   margin-right: 0.75rem;
 }
 
-/*========== CERTIFICATES ==========*/
-.certificate__title {
+/*========== eventsS ==========*/
+.events__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
   color: var(--text-color);
 }
-.certificate__bold {
+.events__bold {
   font-size: var(--h3-font-size);
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
@@ -521,7 +521,7 @@ img {
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-2);
 }
-.certificate__description {
+.events__description {
   color: var(--text-color);
 }
 /*========== REFERENCES ==========*/
@@ -660,4 +660,28 @@ img {
     grid-template-columns: repeat(4, max-content);
     column-gap: 3.5rem;
   }
+}
+
+details {
+  user-select: none;
+}
+
+details > summary span.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  margin-left: auto;
+}
+
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  display: flex;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
 }
