@@ -510,8 +510,11 @@ img {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
 }
+.certifiacte__description {
+  color: var(--text-color);
+}
 
-/*========== eventsS ==========*/
+/*========== events ==========*/
 .events__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
@@ -655,6 +658,10 @@ img {
 
   .references__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .events__container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
   }
 
   .languages__content {
