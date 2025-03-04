@@ -416,6 +416,7 @@ img {
 .profile__description {
   text-align: center;
   color: var(--text-color);
+  margin-bottom: var(--mb-2);
 }
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
@@ -508,10 +509,11 @@ img {
 /*========== CERTIFICATES ==========*/
 .certificate__title {
   font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-1);
+  /* margin-bottom: var(--mb-1); */
 }
 .certifiacte__description {
   color: var(--text-color);
+  margin-bottom: var(--mb-2);
 }
 
 /*========== events ==========*/
